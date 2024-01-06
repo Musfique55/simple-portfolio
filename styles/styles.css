@@ -160,3 +160,36 @@ nav ul a{
     font-weight: 400;
     line-height: 28px;
 }
+.resume{
+    text-align: center;
+}
+.resume-section{
+    display: flex;
+    padding: 110px 230px 50px 230px;
+    column-gap: 24px;
+}
+.qualification-title{
+    color:  #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.academic-title{
+    color:  #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.institute-name{
+    color:  #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.academic-description{
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

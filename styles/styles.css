@@ -25,6 +25,7 @@ nav{
 }
 nav ul{
     display: flex;
+    align-items: center;
 }
 nav ul li{
     list-style: none;
@@ -43,11 +44,13 @@ nav ul a{
     border: none;
     color: white;
     font-size: 20px;
+    cursor: pointer;
     font-weight: 400;
 }
 .btn-secondary{
     border-radius: 5px;
     border: 1px solid #FD6E0A;
+    cursor: pointer;
     background-color: #FFF8F3;
     padding: 10px 20px;
     color: #FD6E0A;
@@ -112,7 +115,7 @@ nav ul a{
 .section-description{
     padding-left: 155px;
     padding-right: 155px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     color:  #757575;
     text-align: center;
     font-size: 18px;
@@ -135,7 +138,7 @@ nav ul a{
 }
 .skills{
     display: flex;
-    margin: 0 230px;
+    margin: 0 200px;
     gap: 24px;
 }
 .skill{
@@ -144,6 +147,8 @@ nav ul a{
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     margin-bottom: 130px;
+    max-height: 377px;
+    max-width: 267px;
 }
 .skill img{
     margin-bottom: 30px;
@@ -192,4 +197,55 @@ nav ul a{
     line-height: 28px; 
     margin-top: 20px;
     margin-bottom: 30px;
+}
+footer{
+    display: flex;
+    padding: 130px 230px;
+    background-color: #FFF8F3;
+    margin-top: 113px;
+    column-gap: 20px;
+}
+.first-part{
+    width: 50%;
+}
+.footer-title{
+    color:  #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.location{
+    color:  #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    margin: 20px 0px 30px 0px;
+}
+.social-icons{
+    margin-right: 24px;
+}
+input{
+    display: block;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-top: 24px;
+    padding: 18px 35px;
+    border: none;
+    background-color: #FFF;
+}
+.contact-part{
+    width: 50%;
+}
+.contact-part input[type="email"]{
+    margin-bottom: 24px;
+    width: 100%;
+}
+.contact-part input[type="text"] ,textarea{
+    width: 100%;
+    border: 0;
+    padding: 18px 35px;
+}
+input:focus,textarea:focus{
+    outline: none;
 }
